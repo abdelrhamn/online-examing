@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.onlineexamingsystem">
-
-    <supports-screens
-        android:smallScreens="true"
-        android:normalScreens="true"
-        android:xlargeScreens="true"
-        android:largeScreens="true"
-        />
-    <uses-permission android:name="android.permission.INTERNET" />
+    package="com.example.onlineexamnigsystemprof">
 
     <application
         android:allowBackup="true"
@@ -17,12 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ProfessorsList"></activity>
-        <activity android:name=".RegisterLists" />
-        <activity android:name=".AddDepartment" />
-        <activity android:name=".AddingSubjects" />
-        <activity android:name=".AdminMain" />
-        <activity android:name=".Login" />
+        <activity android:name=".Level1Subjects"></activity>
+        <activity android:name=".SubjectContent" />
+        <activity android:name=".Chapters" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
